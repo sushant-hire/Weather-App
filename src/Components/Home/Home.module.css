@@ -1,0 +1,17 @@
+html {
+  background: url("https://wallpapershome.com/images/wallpapers/sunset-3840x2160-sky-mountains-4k-16101.jpeg");
+  background-size: cover;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.MainHomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MapContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.WeatherCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin-top: 3rem;
+  background-color: gainsboro;
+  padding-left: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
